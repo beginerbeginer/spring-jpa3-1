@@ -63,7 +63,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- jquery Bootatrapを導入dependenciesタグ内に、以下の2つを追加します -->
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>startbootstrap-sb-admin-2</artifactId>
