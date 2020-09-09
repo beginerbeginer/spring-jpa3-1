@@ -19,12 +19,12 @@ import lombok.Setter;
 public class Department {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id; 
+	private Long id;
 
 	@NotBlank
 	@Size(max = 40)
 	private String name;
-	
+
 	@OneToMany(mappedBy = "department")
 	private List<Employee> employees;
 }
